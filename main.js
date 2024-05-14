@@ -18,9 +18,9 @@ function addContato() {
         contatos.push(nome.value);
         numeros.push(tel.value);
         addLinha();
+        nome.value = '';
+        tel.value = '';
     }
-    nome.value = '';
-    tel.value = '';
 }
 
 function addLinha() {
